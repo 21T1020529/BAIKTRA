@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    background-image: url(/images/head-background.jpg);
+    height: 1060px;
+    background-repeat: no-repeat;
+}
+
+.imghotline {
+    display: flex;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.hotline {
+    border-radius: 8px;
+    text-align: center;
+    width: 445px;
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 180px;
+    background-color: #49A333;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.registration {
+    border: 10px solid #CED086;
+    width: 370px;
+    height: 435px;
+    text-align: center;
+    background-color: #678B37;
+    margin-left: 480px;
+    margin-top: 200px;
+}
+
+.registration h1 {
+    color: white;
+    margin: 20px;
+    font-size: 2.1em;
+}
+
+.registration p {
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+}
+
+.registration input[type=text] {
+    border-top: 1px solid #2A6E01;
+    border-bottom: 1px groove white;
+    border-left: none;
+    border-right: none;
+    background-color: #678B37;
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+
+}
+
+.cs-input::placeholder {
+    color: white;
+
+}
+
+.registration button {
+    padding: 15px;
+    margin: auto;
+    background-color: #C5D301;
+    color: white;
+    border: none;
+}
+
+.item1,
+.item2 {
+    display: flex;
+}
+
+.content1 h2,
+.content2 h2 {
+    color: #2A6E01;
+    margin: 20px;
+}
+
+.content1 p,
+.content2 p {
+    margin: 20px;
+    font-size: 1.4em;
+}
+
+.item1 img,
+.item2 img {
+    margin: 10px;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #2D8C15;
+}
+
+.new {
+    background-color: #81AF53;
+}
+
+.newceter {
+    display: flex;
+    padding: 30px;
+}
+
+.content3 p {
+    color: white;
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+.content3 h1 {
+    border-bottom: 2px solid #CED086;
+    color: white;
+    margin: 20px;
+}
+
+.final-item h1 {
+    color: #2D8C15;
+    text-align: center;
+}
+
+.final {
+    background-color: #DCE085;
+    padding: 30px;
+}
+
+.final-item input[type=text],
+.final-item button {
+    width: 475px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.final-item button {
+    color: white;
+    background-color: #2A6E01;
+    width: 475px;
+    border: none;
+}
+
+.ms-input::placeholder {
+    color: black;
+}
